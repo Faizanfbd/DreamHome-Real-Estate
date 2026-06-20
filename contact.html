@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dream Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="property.html">Property View</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h2 style="display: block; text-align: center; border: none;">Contact Our Agent</h2>
+        <form onsubmit="alert('Thank you! Your inquiry has been submitted.'); return false;">
+            <label style="font-weight: bold; display: block; margin-top: 10px;">Name:</label>
+            <input type="text" placeholder="Your Full Name" required>
+
+            <label style="font-weight: bold; display: block; margin-top: 10px;">Email:</label>
+            <input type="email" placeholder="Your Email Address" required>
+
+            <label style="font-weight: bold; display: block; margin-top: 10px;">Phone Number:</label>
+            <input type="tel" placeholder="Your Mobile Number" required>
+
+            <label style="font-weight: bold; display: block; margin-top: 10px;">Message/Inquiry:</label>
+            <textarea rows="4" placeholder="Which property or service are you interested in?" required></textarea>
+
+            <input type="submit" value="Submit Inquiry" class="btn" style="width: 100%; margin-top: 10px;">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dream Home Real Estate. All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
